@@ -1,0 +1,38 @@
+{
+  "login": {
+    "username": "username",
+    "password": "password",
+    "realm": "hs"
+  },
+  "mail": {
+    "server": "mail.schneider-on.net",
+    "from": "autoenroll@schneider-on.net",
+    "to": "Tobi@schneider-on.net"
+  },
+  "moodle": {
+    "loginUrl": "https://elearning.uni-regensburg.de/login/index.php",
+    "courseUrl": "https://elearning.uni-regensburg.de/mod/choice/view.php?id=",
+    "choiceUrl": "https://elearning.uni-regensburg.de/mod/choice/view.php",
+    "courses": [
+      {
+        "name": "Summer School",
+        "id": "984212",
+        "choices": [
+          {
+            "name": "Binding",
+            "id": "choice_1",
+            "primary": true,
+            "choosen": false
+          },
+          {
+            "name": "Not Binding",
+            "id": "choice_2",
+            "primary": false,
+            "choosen": false
+          }
+        ],
+        "finished": false
+      }
+    ]
+  }
+}
